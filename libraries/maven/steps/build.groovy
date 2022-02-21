@@ -1,7 +1,7 @@
 void call(){
     stage("Maven Build"){
         println "build from the maven library"
-        steps{    
+        node{    
           sh 'mvn clean package'
         }
     }
