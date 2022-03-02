@@ -21,3 +21,10 @@ release_pipeline {
     release_to_env
     smoke_testing
 }
+
+release_production {
+    verify_change_request
+    release_to_env
+    smoke_testing
+    update_service_now
+}
