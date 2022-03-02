@@ -1,5 +1,5 @@
-@merge libraries{
-    sonarqube
+@merge libraries {
+    @merge sonarqube
 }
 
 commit_pipeline {
