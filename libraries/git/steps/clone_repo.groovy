@@ -1,3 +1,4 @@
+
 void  call(){
     stage("Git: clone repository"){
         String repoUrl = config.repoUrl;

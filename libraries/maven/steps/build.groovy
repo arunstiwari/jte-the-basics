@@ -1,6 +1,6 @@
 void call(){
-    stage("Maven Build"){
+    stage("Maven:  Build the package"){
         println "build from the maven library"
-        sh 'mvn clean package'
+          sh 'mvn package -DskipTests=true'
     }
 }

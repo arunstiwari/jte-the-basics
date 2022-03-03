@@ -1,3 +1,5 @@
-void call(Closure body){
+
+void call(Closure body ){
     node(config.agentName, body)
 }
+
